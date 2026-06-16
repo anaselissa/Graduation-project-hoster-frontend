@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:3000/api';
+  static const String baseUrl = 'https://graduation-project-hoster-backend-api.onrender.com/api';
   static final ApiService _instance = ApiService._internal();
   factory ApiService() => _instance;
 
